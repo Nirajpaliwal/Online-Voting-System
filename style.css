@@ -1,0 +1,249 @@
+                                        /*   Registration   */
+body { 
+    background-image:url("background.jpg")
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: steelblue; 
+}
+
+form {
+    margin: auto;
+    width: 320px;
+    color: steelblue;
+}
+
+input {
+    padding: 10px;
+    font-size: inherit;  
+}
+
+input[type="text"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+}
+
+input[type="regtext"] {
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 80%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+}
+
+input[type="file"] {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;   
+}
+
+
+input[type="password"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+}
+
+input[type="radio"] {
+    margin: 0 8px 25px 20px;
+}
+
+input[type="radio"]:first-child {
+    margin-left: 0;
+    height: auto;
+    width: auto;
+}
+
+input[type="submit"] {
+    width: 344px;
+    height: 45px;
+    border: none;
+    background: steelblue;
+    color: white;
+}
+
+input[type="submit"]:focus {
+    width: 344px;
+    height: 45px;
+    border: solid steelblue;
+    background: white;
+    color: steelblue;
+}
+
+
+.submit2 {
+    width: 250px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: steelblue;
+    color: white;
+}
+
+input:focus {
+    background: white;
+}
+
+input[type="radio"]:checked +label {
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+                                    
+div.HomeContent {
+    margin-bottom: 20px;
+    margin-top: 80px;
+    float: left;
+    
+    
+}
+
+#admin.HomeContent{
+    margin-left: 400px;    
+    
+}
+
+#user.HomeContent {
+    margin-left: 200px;
+    
+}
+
+
+.reg-submit-button {
+    font-size: 22px;
+    text-align: center;
+}
+
+.gender-selection {
+    font-size: 20px;
+}
+
+nav {
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -5px;
+    background-color: #B6D14A;
+    font-size: 25px;
+    text-align: center;
+    padding-right: 25px;
+    height: 80px;
+    width: 1196px;
+    display: inline-block;
+    
+}
+
+footer {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 400px;
+    height: inherit;
+    width: inherit;
+    background-color: black;
+    text-align: center;
+    border: solid black 1px;
+    color: crimson;
+}
+
+.mainnav{
+    display: inline;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #1d141e;
+}
+
+.navadmin {
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #1d141e;
+    
+}
+
+.navuser {
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #1d141e;
+}
+
+
+.election-registration-form-1 {
+    margin-left: 450px;
+}
+
+.election-registration-form-2 {
+    margin-left: 400px;
+}
+
+.view-election-form {
+    margin-left: 480px;
+}
+
+.view-result-form-admin {
+    margin-left: 500px;
+}
+
+.view-result-form-user {
+    margin-left: 400px;
+}
+
+.end-election-form {
+    margin-left: 400px;
+}
+.table-header {
+    font-size: 30px;
+}
+
+.user-vote-form {
+    margin-left: 500px;
+}
+.main-page-image {
+    height: 400px;
+    width: 1220px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+tablewidth {
+    position: absolute;
+    height: 20px;
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: steelblue;
+    color: white;
+    background-color: steelblue;
+}
+
+
